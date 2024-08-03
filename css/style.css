@@ -396,7 +396,7 @@ body {
 }
 
 .cardImg-01{
-    background-image: url('../images/home-section4-1-sm.png');
+    background-image: url('../images/home-section4-1.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -404,7 +404,7 @@ body {
 }
 
 .cardImg-02{
-    background-image: url('../images/home-section4-2-sm.png');
+    background-image: url('../images/home-section4-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -414,6 +414,14 @@ body {
 @media (max-width:576px) {
     .coBrandList{
         flex-direction: column;
+    }
+
+    .cardImg-01{
+        background-image: url('../images/home-section4-1-sm.png');
+    }
+    
+    .cardImg-02{
+        background-image: url('../images/home-section4-2-sm.png');
     }
 }
 
